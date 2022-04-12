@@ -1,0 +1,56 @@
+body {
+    color: white;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: #6c3780;
+    width: 100%;
+    padding: 15px;
+}
+
+#header_first {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#header_second {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#form_relation {
+    position: relative;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #2a253c;
+}
+
+#tel_text {
+    width: 250px;
+}
+
+p {
+    font-size: 0.1rem;
+}
+
+#form_information {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#inf_number {
+    width: 100px;
+}
+
+.information_checkbox {
+    border-radius: 3px;
+}
+
